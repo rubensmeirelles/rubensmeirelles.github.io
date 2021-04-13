@@ -1,21 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/syle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7873db2fc3.js" crossorigin="anonymous"></script>
   <title>Rubens Meirelles | Github.io</title>
 </head>
+
 <body>
+<!--HEADER-->
   <header>
-    <nav class="navbar">
-      <div class="logo">Minha logo</div>
-      <div class="menu">Navegação</div>
-    </nav>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo2.png" alt="" class="logo">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home" class="active">home</a></li>
+            <li><a href="#about">sobre mim</a></li>
+            <li><a href="#portfolio">portfólio</a></li>
+            <li><a href="#contato">contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
-  <h1>Iniciando meu site</h1>
+
+  <!--MAIN-->
+  <div class="main">
+    <div class="container">
+      <div class="who_i_am">
+        <h1>meu nome é<br>rubens meirelles</h1>
+        <br>
+        <span>sou desenvolvedor web frontend</span>
+      </div>
+      <div class="my_photo">
+        <img src="img/foto.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!--ABOUT ME-->
+  <section class="about-me">
+    <div class="container">
+      <h2 class="title-section">um pouco sobre mim</h2>
+      <h3>Olá, meu nome é Rubens Meirelles</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam temporibus porro itaque blanditiis amet minima
+        tempora doloremque quia! Iure similique beatae, dolores sunt delectus molestiae. Qui quod nihil aliquam ab!
+        Animi repudiandae quis vel nisi vero fuga pariatur inventore vitae id aspernatur esse recusandae culpa maiores
+        repellat, fugiat assumenda delectus ipsum, quisquam optio laboriosam illo nesciunt ullam. Ipsa, provident eaque.
+        Placeat error debitis corporis corrupti eius. Neque ad quam quibusdam natus voluptatum officia eveniet maiores
+        nostrum iure? Repellat ad dolores delectus! Nemo cumque harum voluptatibus consectetur, possimus nihil molestias
+        quia.</p>
+    </div>
+  </section>
+
+  <!--PORTFOLIO-->
+  <section class="portfolio">
+    <div class="container">
+      <div>
+        <h2 class="title-section">Meus trabalhos</h2>
+      </div>
+      <div class="my-works">
+        <img src="img/img.jpg" alt="">
+        <img src="img/img.jpg" alt="">
+        <img src="img/img.jpg" alt="">
+        <img src="img/img.jpg" alt="">
+      </div>
+    </div> 
+  </section>
+
+  <!--CONTATO-->
+
+  <section class="contact">
+    <h2 class="title-section">Contatos</h2>
+      <div class="container">
+        <div class="contact-me">
+          <h2>Entre em contato comigo</h2>
+          <p><i class="fab fa-whatsapp"></i>(61) 98429-6341</p>
+          <p><i class="fas fa-at"></i><a href="mailto:rrubens.meirelles@gmail.com">rrubens.meirelles@gmail.com</a></p>
+        </div>
+        <div class="contact-you">
+          <h2>Ou deixe sua mensagem que retorno pra você</h2>
+          <form action="">
+            <input type="mail" placeholder="Seu nelhor e-mail">
+            <textarea name="" id="" cols="30" rows="10">Deixe sua mensagem</textarea>
+            <a href="" class="btn">Enviar</a>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Desenvolvido por Rubens Meirelles</p>
+      <p>&copyTodos os direitos reservados</p>
+    </footer>
 
   <script src="js/app.js"></script>
 </body>
+
 </html>
